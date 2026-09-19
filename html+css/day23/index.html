@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day 23</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+        }
+
+        .box {
+            height: 90vh;
+            margin: 10px;
+
+            border: 10px solid;
+
+        }
+
+        .text-center {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 40px;
+        }
+
+
+
+        .box1 {
+            background-color: rgba(84, 246, 246, 0.875);
+
+        }
+
+
+        /*====== box 2 ======*/
+        .box2 {
+            display: grid;
+        }
+
+        .box2uper {
+            background-color: rgba(0, 0, 255, 0.562);
+        }
+
+        .box2lower {
+            background-color: rgba(255, 0, 98, 0.564);
+        }
+
+
+
+        /*====== box 3 ======*/
+        .box3 {
+            display: grid;
+            grid-auto-flow: column;
+
+
+        }
+
+        .box3left {
+            background-color: blanchedalmond;
+            /* width: 50%; */
+        }
+
+        .box3right {
+            background-color: rgba(255, 127, 80, 0.651);
+            /* width: 50%; */
+
+        }
+
+
+        /*====== box 4 ======*/
+        .box4 {
+            position: relative;
+        }
+
+        .box4top {
+            height: 25%;
+            background-color: aquamarine;
+        }
+
+        .box4left {
+            background-color: blueviolet;
+            position: absolute;
+            height: 50%;
+            width: 50%;
+            left: 0;
+        }
+
+        .box4right {
+            background-color: rgb(226, 125, 43);
+            position: absolute;
+            height: 50%;
+            width: 50%;
+            right: 0;
+        }
+
+        .box4buttom {
+            height: 25%;
+            background-color: rgb(135, 255, 80);
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+
+
+
+
+
+
+
+
+        /*====== box 5 ======*/
+        .box5 {
+            display: grid;
+        }
+
+        .box5-1 {
+            background-color: red;
+        }
+
+        .box5-2 {
+            background-color: blue;
+        }
+
+        .box5-3 {
+            background-color: green;
+        }
+
+        .box5-4 {
+            background-color: orange;
+        }
+
+        .box5-5 {
+            background-color: rgb(45, 241, 120);
+        }
+
+
+
+        /*====== box 6 ======*/
+        .box6 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .box6-1 {
+            background-color: rgb(204, 46, 235);
+        }
+
+        .box6-2 {
+            background-color: rgb(246, 252, 78);
+        }
+
+        .box6-3 {
+            background-color: green;
+        }
+
+        .box6-4 {
+            background-color: rgb(64, 244, 223);
+        }
+
+
+
+        /* ==== box 7 ==== */
+
+        .box7-t{
+         background-color: darkmagenta;
+         height: 100%;
+         
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="box text-center">
+        <h1>hero box</h1>
+
+    </div>
+
+
+    <div class="box box1 text-center">
+        box 1
+
+    </div>
+
+
+    <div class="box box2">
+        <div class="box2uper text-center">
+            box 2 uper
+        </div>
+        <div class="box2lower text-center">
+            box 2 Lower
+        </div>
+    </div>
+
+
+    <div class="box box3">
+        <div class="box3left text-center">
+            <h2>box 3 left
+        </div>
+        <div class="box3right text-center">
+            <h2>box 3 right
+        </div>
+    </div>
+
+
+    <div class="box box4">
+        <div class="box4top text-center">
+            <h2>box 4 top
+        </div>
+
+        <div class="box4left text-center">
+            <h2>box 4 left
+        </div>
+        <div class="box4right text-center">
+            <h2>box 4 right
+        </div>
+
+        <div class="box4buttom text-center">
+            <h2>box 4 buttom
+        </div>
+    </div>
+
+
+    <div class="box box5">
+        <div class="box5-1 text-center">
+            box 1
+        </div>
+        <div class="box5-2 text-center">
+            box 2
+        </div>
+        <div class="box5-3 text-center">
+            box 3
+        </div>
+        <div class="box5-4 text-center">
+            box 4
+        </div>
+        <div class="box5-5 text-center">
+            box 5
+        </div>
+    </div>
+
+
+
+    <div class="box box6">
+        <div class="box6-1 text-center">
+            box 1
+        </div>
+        <div class="box6-2 text-center">
+            box 2
+        </div>
+        <div class="box6-3 text-center">
+            box 3
+        </div>
+        <div class="box6-4 text-center">
+            box 4
+        </div>
+    </div>
+
+
+
+    <div class="box box7">
+        <div class="box7-t text-center">
+            box 
+        </div>
+
+    </div>
+
+</body>
+
+</html>
